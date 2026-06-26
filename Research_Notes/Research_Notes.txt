@@ -1,0 +1,228 @@
+ETHICAL HACKING TASK 01
+RESEARCH NOTES
+Topic: Information Gathering & Reconnaissance
+
+---
+
+1. INTRODUCTION
+
+---
+
+Information Gathering (Reconnaissance) is the first phase of Ethical Hacking. During this phase, an ethical hacker collects publicly available information about a target organization, website, or network. The information collected helps in understanding the target before performing any security assessment.
+
+Reconnaissance can be performed without interacting with the target system (Passive Reconnaissance) or by directly communicating with the target (Active Reconnaissance).
+
+This task focuses only on Passive Reconnaissance.
+
+---
+
+2. ETHICAL HACKING METHODOLOGY
+
+---
+
+The common phases of Ethical Hacking are:
+
+1. Reconnaissance (Information Gathering)
+2. Scanning and Enumeration
+3. Gaining Access
+4. Maintaining Access
+5. Covering Tracks
+6. Reporting
+
+Reconnaissance is considered the most important phase because it provides valuable information about the target before any testing begins.
+
+---
+
+3. PASSIVE RECONNAISSANCE
+
+---
+
+Passive Reconnaissance involves collecting information without directly interacting with the target system.
+
+Examples include:
+
+• WHOIS Lookup
+• DNS Lookup
+• Search Engines
+• Company Websites
+• Social Media
+• Public Documents
+• Security Search Engines
+
+Advantages:
+
+• Legal and safe
+• Difficult to detect
+• No impact on the target system
+
+---
+
+4. WHOIS LOOKUP
+
+---
+
+WHOIS is a public database that stores domain registration information.
+
+WHOIS provides:
+
+• Domain Name
+• Registrar
+• Registration Date
+• Expiry Date
+• Name Servers
+• Domain Status
+
+WHOIS helps identify ownership and administrative information about a domain.
+
+---
+
+5. DNS ENUMERATION
+
+---
+
+DNS (Domain Name System) converts domain names into IP addresses.
+
+Important DNS Records:
+
+A Record
+Maps a domain name to an IPv4 address.
+
+AAAA Record
+Maps a domain name to an IPv6 address.
+
+MX Record
+Specifies the mail servers responsible for receiving email.
+
+NS Record
+Lists the authoritative name servers.
+
+TXT Record
+Stores verification records, SPF, DKIM, and other security-related information.
+
+---
+
+6. WEBSITE TECHNOLOGY IDENTIFICATION
+
+---
+
+Technology identification helps determine which technologies are used by a website.
+
+Common information includes:
+
+• Web Server
+• Content Delivery Network (CDN)
+• Programming Language
+• CMS
+• JavaScript Libraries
+• Analytics Tools
+• Cloud Services
+
+Popular tools:
+
+• Wappalyzer
+• BuiltWith
+
+---
+
+7. HTTP SECURITY HEADERS
+
+---
+
+Security headers improve the security of web applications.
+
+Important headers:
+
+Content-Security-Policy (CSP)
+Helps prevent Cross-Site Scripting (XSS) attacks.
+
+X-Frame-Options
+Protects against Clickjacking attacks.
+
+X-Content-Type-Options
+Prevents MIME type sniffing.
+
+Strict-Transport-Security (HSTS)
+Forces secure HTTPS communication.
+
+Referrer-Policy
+Controls the amount of referrer information shared.
+
+---
+
+8. ROBOTS.TXT
+
+---
+
+robots.txt is a text file placed in the root directory of a website.
+
+Purpose:
+
+• Guides search engine crawlers
+• Specifies which pages should or should not be indexed
+• Helps reduce unnecessary crawling
+
+---
+
+9. SITEMAP.XML
+
+---
+
+A sitemap.xml file lists important pages of a website.
+
+Benefits:
+
+• Helps search engines discover web pages
+• Improves indexing
+• Provides the website structure
+
+Some websites restrict public access to their sitemap for security or operational reasons.
+
+---
+
+10. FOOTPRINTING TECHNIQUES
+
+---
+
+Common footprinting techniques include:
+
+• WHOIS Lookup
+• DNS Enumeration
+• Search Engine Queries
+• Website Analysis
+• HTTP Header Analysis
+• Public Documents
+• Social Media Analysis
+• Metadata Collection
+
+---
+
+11. TOOLS USED
+
+---
+
+• WHOIS Lookup
+• DNSChecker
+• Wappalyzer
+• SecurityHeaders.com
+• Web Browser
+
+---
+
+12. LEARNING OUTCOMES
+
+---
+
+After completing this task, I learned:
+
+• The importance of reconnaissance in ethical hacking.
+• The difference between passive and active reconnaissance.
+• How WHOIS provides domain registration information.
+• How DNS records help understand website infrastructure.
+• The purpose of HTTP Security Headers.
+• The importance of robots.txt and sitemap.xml.
+• How technology detection tools identify publicly available technologies.
+• The importance of collecting information ethically before any security assessment.
+
+---
+
+## END OF RESEARCH NOTES
